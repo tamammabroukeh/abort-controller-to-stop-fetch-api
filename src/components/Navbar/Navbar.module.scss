@@ -1,0 +1,35 @@
+nav {
+  background: #9337ef;
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      margin: 15px;
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        &:hover {
+          color: #760ae2;
+        }
+      }
+      button {
+        padding: 10px 15px;
+        color: #fff;
+        background: #af74ea;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 18px;
+        &:hover {
+          background-color: #760ae2;
+        }
+      }
+    }
+  }
+}
